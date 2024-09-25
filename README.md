@@ -91,6 +91,9 @@ $ nest g controller auth --no-spec
 $ nest g service auth --no-spec
 $ nest g resource users
 
+# Create module in module
+$ nest g resource kitchenLocators/manager-kitchen-locator
+
 # Setting package
 npm i @nestjs/mongoose mongoose
 npm install @nestjs/jwt --save
